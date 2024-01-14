@@ -1,0 +1,274 @@
+insert di prova
+impianto
+id_start: 101
+INSERT INTO impianto (nome, indirizzo, email, telefono) 
+VALUES ('Spare 1', 'Via Roma 11', 'spare1@email.it', '3331234567');
+INSERT INTO impianto (nome, indirizzo, email, telefono) 
+VALUES ('Spare 2', 'Via Latina 24', 'spare2@email.it', '3332345678');
+INSERT INTO impianto (nome, indirizzo, email, telefono)
+VALUES ('Spare 3', 'Via Viterbo 32', 'spare3@email.it', '3333456789');
+
+pista
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 101);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 101);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 101);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 101);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 101);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 102);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 102);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 102);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 102);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 102);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 103);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 103);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 103);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 103);
+INSERT INTO pista (disponibile, id_impianto) VALUES (1, 103);
+
+giocatore
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Mario', 'Rossi', '1990-01-01', 'mario.rossi@email.com', '333-333-3333');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Luca', 'Bianchi', '1995-05-05', 'luca.bianchi@email.com', '444-444-4444');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Chiara', 'Verde', '1985-12-25', 'chiara.verde@email.com', '555-555-5555');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Francesco', 'Neri', '1980-07-07', 'francesco.neri@email.com', '666-666-6666');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Elena', 'Gialla', '1995-03-03', 'elena.gialla@email.com', '777-777-7777');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Giovanni', 'Blu', '2000-09-09', 'giovanni.blu@email.com', '888-888-8888');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Sara', 'Rosa', '1992-02-29', 'sara.rosa@email.com', '999-999-9999');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Alessandro', 'Arancione', '1998-06-06', 'alessandro.arancione@email.com', '111-111-1111');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Paola', 'Viola', '1985-10-10', 'paola.viola@email.com', '222-222-2222');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Stefano', 'Marrone', '1995-08-08', 'stefano.marrone@email.com', '333-333-3333');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Pierluigi', 'Marazzi', '1972-04-09', 'pierluigimarazzi@example.net', '+39 0984046497');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Romina', 'Inzaghi', '1990-05-05', 'rominainzaghi@example.net', '+39 37779198129');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Valentina', 'Battisti', '2012-10-23', 'vvbattisti@example.com', '093245441');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Massimo', 'Branciforte', '1989-09-12', 'ecorbo@example.org', '33652364117');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Flavia', 'Bova', '2021-06-16', 'flaviabov@example.net', '0243601134');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Virgilio', 'Sagese', '1990-04-05', 'virgilio.sagese@example.com', '378369367');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Lamberto', 'Bignardi', '1973-06-26', 'grifeodolores@example.org', '+39 09538704836');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Luigina', 'Perini', '1975-10-31', 'carnerafilippo@example.net', '+39 04452189386');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Stefano', 'Redi', '1987-04-11', 'qbottaro@example.com', '+39 05654428335');
+INSERT INTO giocatore (nome, cognome, data_nascita, email, telefono) VALUES ('Bruno', 'Tolentino', '2011-01-26', 'ninocagnin@example.com', '018417555');
+
+partita 
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('10:00:00', '2022-10-01', 810, 136, '11:00:00', 1);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('14:00:00', '2022-10-02', 811, 153, '15:00:00', 2);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('09:00:00', '2022-10-03', 812, 250, '10:00:00', 3);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('13:00:00', '2022-10-04', 813, 300, '14:00:00', 4);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('15:00:00', '2022-10-05', 814, 81, '16:00:00', 1);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('11:00:00', '2022-10-06', 815, 72, '12:00:00', 2);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('16:00:00', '2022-12-07', 816, 270, '17:00:00', 3);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('09:00:00', '2022-05-08', 817, 32, '10:00:00', 4);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('14:00:00', '2022-05-09', 818, 35, '15:00:00', 7);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('16:00:00', '2022-07-10', 819, 60, '17:00:00', 7);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('10:00:00', '2022-03-11', 820, 95, '11:00:00', 7);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('13:00:00', '2022-08-12', 821, 57, '14:00:00', 8);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('09:00:00', '2022-10-05', 822, 85, '10:00:00', 12);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('15:00:00', '2022-01-14', 823, 67, '16:00:00', 12);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('11:00:00', '2022-01-15', 824, 165, '12:00:00', 8);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('14:00:00', '2022-05-09', 825, 35, '15:00:00', 8);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('16:00:00', '2022-07-10', 826, 60, '17:00:00', 7);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('10:00:00', '2022-03-11', 827, 95, '11:00:00', 7);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('13:00:00', '2022-08-12', 828, 57, '14:00:00', 15);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('09:00:00', '2022-10-05', 829, 85, '10:00:00', 5);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('15:00:00', '2022-01-14', 810, 67, '16:00:00', 2);
+INSERT INTO partita (ora_inizio, data, id_giocatore, punteggio, ora_fine, id_pista) 
+VALUES ('11:00:00', '2022-01-15', 811, 165, '12:00:00', 8);
+
+
+inventario
+INSERT INTO inventario (descrizione) VALUES ('Palle da bowling');
+INSERT INTO inventario (descrizione) VALUES ('Scarpe da bowling');
+INSERT INTO inventario (descrizione) VALUES ('Birilli da bowling');
+INSERT INTO inventario (descrizione) VALUES ('Guanti da bowling');
+INSERT INTO inventario (descrizione) VALUES ('Asciugamani da bowling');
+INSERT INTO inventario (descrizione) VALUES ('Pettorine da bowling');
+INSERT INTO inventario (descrizione) VALUES ('Sistemi di illuminazione');
+INSERT INTO inventario (descrizione) VALUES ('Sistemi di sonorizzazione');
+INSERT INTO inventario (descrizione) VALUES ('Tavoli per il servizio bar');
+INSERT INTO inventario (descrizione) VALUES ('Sgabelli da bar');
+INSERT INTO inventario (descrizione) VALUES ('Sistemi di videosorveglianza');
+INSERT INTO inventario (descrizione) VALUES ('Sistemi di gestione delle prenotazioni');
+INSERT INTO inventario (descrizione) VALUES ('Sistemi di gestione dei pagamenti');
+
+dipendente
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ('John', 'Doe', 'Manager', 50000, 101);
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Mario", "Rossi", "cassiere", 1000, 101, "2022-01-01", "via Roma, 12", "3331234567");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Luca", "Bianchi", "addetto pulizie", 800, 102, "2022-02-01", "via Milano, 10", "3332222222");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Simone", "Neri", "amministratore", 1200, 103, "2022-03-01", "via Napoli, 15", "3333333333");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Nico", "Pedrazzini", "addetto alla manutenzione", 900, 101, "2022-04-01", "via Roma, 23", "3331112222");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Licia", "Bottigliero", "cassiera", 800, 102, "2022-05-01", "via Milano, 25", "3331231234");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Renata", "Broggini", "amministratore", 1200, 103, "2022-06-01", "via Napoli, 18", "3333456789");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Marisa", "Petrucci", "addetto pulizie", 800, 101, "2022-07-01", "via Firenze, 12", "3332223333");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Ugo", "Fiorucci", "addetto alla manutenzione", 900, 102, "2022-08-01", "via Torino, 15", "3334445555");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Donna", "Costalonga", "cassiera", 800, 103, "2022-09-01", "via Venezia, 20", "3335556666");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Renata", "Calbo", "amministratore", 1200, 101, "2022-10-01", "via Taranto, 3", "3334446622");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Verdiana", "Bonatti", "addetto all'inventario", 900, 101, "2022-10-01", "via Roma, 32", "3331113333");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Marisa", "Bonino", "cassiera", 800, 102, "2022-11-01", "via Milano, 22", "3331234567");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Alberico", "Faggiani", "addetto all'inventario", 900, 103, "2022-12-01", "via Napoli, 21", "3333333333");
+INSERT INTO dipendente (nome, cognome, ruolo, stipendio, data_assunzione, indirizzo, telefono, id_impianto)
+VALUES ("Gaspare", "Toscani", "addetto all'inventario", 800, 102, "2023-01-01", "via Firenze, 10", "3332221111");
+
+scarpe
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.00, 42, "Nike", 810);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.50, 44, "Adidas", 811);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (6.00, 43, "Puma", 812);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.00, 42, "Nike", 813);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.50, 45, "Adidas", 814);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (6.00, 46, "Puma", 815);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.00, 41, "Nike", 816);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.50, 40, "Adidas", 817);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (6.00, 42, "Puma", 818);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.00, 44, "Nike", 819);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.50, 43, "Adidas", 820);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (6.00, 42, "Puma", 821);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.00, 45, "Nike", 822);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (5.50, 41, "Adidas", 823);
+INSERT INTO scarpe (prezzo, taglia, marca, id_giocatore)
+VALUES (6.00, 42, "Puma", 824);
+
+abbonamento
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2023-01-01', '2023-01-31', 'mensile', 810);
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2023-01-01', '2023-01-31', 'mensile', 811);
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2022-03-01', '2022-04-01', 'mensile', 812);
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2023-01-01', '2023-04-01', 'trimestrale', 813);
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2023-01-01', '2023-04-01', 'trimestrale', 814);
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2022-01-01', '2022-12-31', 'annuale', 815);
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2023-01-01', '2023-12-31', 'annuale', 816);
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2022-01-01', '2022-12-31', 'annuale', 817);
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2022-01-01', '2022-12-31', 'annuale', 818);
+INSERT INTO abbonamento (data_inizio, data_fine, tipologia, id_giocatore)
+VALUES ('2023-01-01', '2023-12-31', 'annuale', 819);
+
+promozione
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto) 
+VALUES ('Promozione settimanale', '2023-01-31', '2023-02-07', 10, '10% di sconto su ogni noleggio', 101);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto) 
+VALUES ('Happy Hour', '2023-02-01', '2023-02-28', 15, "15% di sconto su ogni partita giocata durante l'orario dalle 18:00 alle 20:00", 102);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto) 
+VALUES ('Promozione del mese', '2023-02-15', '2023-03-15', 20, '20% di sconto sull''acquisto di un abbonamento mensile', 103);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto) 
+VALUES ('Promozione 2', '2022-01-01', '2022-01-31', '0.15', 'Sconto del 15% su tutti i noleggi', 101);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto) 
+VALUES ('Promozione 3', '2022-02-01', '2022-02-28', '0.20', 'Sconto del 20% su tutti gli abbonamenti', 102);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto) 
+VALUES ('Promozione 4', '2022-03-01', '2022-03-31', '0.10', 'Sconto del 10% su tutti i pasti al bar', 103);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto) 
+VALUES ('Promozione 5', '2022-04-01', '2022-04-30', '0.30', 'Sconto del 30% su tutti i giochi', 101);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto) 
+VALUES ('Promozione 6', '2022-05-01', '2022-05-31', '0.25', 'Sconto del 25% su tutti i prodotti del negozio', 102);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto)
+VALUES ('Promozione 2x1', '2022-05-01', '2022-05-31', 50, '2 ore di gioco al prezzo di 1', 101);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto)
+VALUES ('Sconti per studenti', '2022-06-01', '2022-06-30', 20, 'Sconti del 20% per gli studenti', 102);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto)
+VALUES ('Promozione serale', '2022-07-01', '2022-07-31', 30, 'Sconti del 30% per i giochi dalle 20:00 alle 23:00', 103);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto)
+VALUES ('Promozione per gruppi', '2022-08-01', '2022-08-31', 25, 'Sconti del 25% per gruppi di almeno 10 persone', 101);
+INSERT INTO promozione (nome, data_inizio, data_fine, percentuale_sconto, descrizione, id_impianto)
+VALUES ('Promozione festiva', '2022-09-01', '2022-09-30', 40, 'Sconti del 40% per i giochi durante i giorni festivi', 102);
+
+giocatore_abbonamento
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (810, 9000);
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (811, 9001);
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (812, 9002);
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (813, 9003);
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (814, 9004);
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (815, 9005);
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (816, 9006);
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (817, 9007);
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (818, 9008);
+INSERT INTO giocatore_abbonamento (id_giocatore, id_abbonamento) VALUES (819, 9009);
+
+noleggio
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (810, 8000, 10:00, 1);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (811, 8001, 11:00, 1);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (812, 8002, 09:00, 0);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (813, 8003, 13:00, 1);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (814, 8004, 15:00, 0);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (815, 8005, 11:00, 1);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (816, 8006, 16:00, 1);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (817, 8007, 09:00, 0);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (818, 8008, 14:00, 1);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (819, 8009, 16:00, 0);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (820, 8010, 10:00, 1);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (821, 8011, 13:00, 1);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (822, 8012, 09:00, 0);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (823, 8013, 15:00, 1);
+INSERT INTO noleggio (id_giocatore, id_scarpe, ora_inizio, consegnato) VALUES (824, 8014, 20:00, 0);
+
+impianto_inventario
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (101, 1, 10);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (102, 1, 7);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (103, 1, 12);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (101, 2, 5);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (102, 2, 50);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (103, 2, 13);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (101, 3, 8);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (102, 3, 20);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (103, 3, 16);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (101, 4, 100);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (102, 4, 8);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (103, 4, 18);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (101, 5, 5);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (102, 5, 10);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (103, 5, 20);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (101, 7, 10);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (102, 7, 11);
+INSERT INTO impianto_inventario (id_impianto, id_inventario, quantità) VALUES (103, 7, 10);
+

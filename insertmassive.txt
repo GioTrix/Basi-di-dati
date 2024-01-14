@@ -1,0 +1,2 @@
+Le insert massive sono state generate tramite due script in Python. Il primo genera un file CSV, il secondo carica 
+i dati nel database. Nella cartella script si trovano i programmi e nella cartella data i dati generati.
